@@ -3,11 +3,10 @@ plugins {
     id 'application'
 }
 
-group = 'com.github.LeoPivatoNEU.NotebookApp'
 version = '1.0-SNAPSHOT'
 
 application {
-    mainClass.set('com.github.LeoPivatoNEU.NotebookApp.Main')
+    mainClass.set('Main')
 }
 
 repositories {
